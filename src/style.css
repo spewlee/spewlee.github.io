@@ -1,0 +1,63 @@
+body {
+    background: url("images/website-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background: linear-gradient(to left top, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+}
+
+.dark-glass {
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    color: white;
+}
+
+.btn-primary {
+   background-color: #5DCBB1 !important;
+   border-color: #5DCBB1 !important;
+}
+
+.btn-primary:hover {
+    background-color: #707793 !important;
+    border-color: #707793 !important;
+    color: #5DCBB1 !important;
+ }
+
+ .dark-glass .btn-primary:hover {
+    background-color: #CEEEE6 !important;
+    border-color: #CEEEE6 !important;
+    color: #707793 !important;
+ }
+
+#footer, .header {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav a{
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-nav a:hover {
+    color: black !important;
+}
+
+#github:hover{
+    color: #6e5494 !important;
+}
+
+#linkedin:hover{
+    color: #007bb6 !important;
+}
