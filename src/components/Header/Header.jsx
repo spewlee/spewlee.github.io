@@ -15,7 +15,7 @@ function Header() {
     return(
         <div className="sticky-top">
             <Navbar collapseOnSelect expand="xl" variant="light" className="ps-5 pe-5 header">
-                <Navbar.Brand className="d-flex align-items-center" href="/"><img className="profile-photo" src={logo} alt="Sport Support Logo" height="100"/></Navbar.Brand>
+                <Navbar.Brand className="d-flex align-items-center" href="/"><img className="profile-photo" src={logo} alt="Sport Support Logo" height="80"/></Navbar.Brand>
                 <Navbar.Brand className="d-flex align-items-center" href="/"><h1 className="suelee-home fs-1">Suelee Christie</h1></Navbar.Brand>  
                 <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end text-secondary">
