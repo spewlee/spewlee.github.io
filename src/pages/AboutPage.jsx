@@ -58,6 +58,9 @@ function AboutPage() {
             <p>
             During the She Codes Flash and Plus Programs, I got a deeper understanding of some of the programming concepts that I had already been learning. I was also introduced to new concepts and was able to develop my skills. Since then my knowledge and confidence has grown and I am now able to see these skills being applied into tangible projects such as this website. I am incredibly excited to see what I am able to develop in the near future.
             </p>
+            <p>
+            Below are some coding languages, libraries, frameworks, databases & platforms that I have used.
+            </p>
             <h3>PLEASE WATCH THIS SPACE!</h3>
         </Container>
 
