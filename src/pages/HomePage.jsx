@@ -14,10 +14,11 @@ function HomePage() {
                             <p className="col-md-8 fs-4">
                             By browsing this website, you will get the opportunity to learn more about me, what I have been learning and some of the projects that I have been completing. Most of these projects have been completed while participating in the She Codes 2021/2022 Plus Program. 
                             </p>
-                            <Link to="/projects">
-                                <a href="" className="btn btn-primary text-light fw-bold" role="button">
+                            <Link to="/projects" className="btn btn-primary text-light fw-bold" role="button">
                                 Look At Projects
-                                </a>
+                                {/* <a href="/projects" className="btn btn-primary text-light fw-bold" role="button">
+                                Look At Projects
+                                </a> */}
                             </Link>
                         </div>
 
